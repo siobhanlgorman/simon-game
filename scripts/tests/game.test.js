@@ -44,7 +44,7 @@ describe("newGame() works correctly", () => {
     test("should set game score to zero", () => {
         expect(game.score).toEqual(0);
     });
-    test("should clear playerMoves array", () => {
+    test("should clear computer sequence array", () => {
         // expect(game.playerMoves).toEqual([]);
         expect(game.playerMoves.length).toBe(0);
     });
