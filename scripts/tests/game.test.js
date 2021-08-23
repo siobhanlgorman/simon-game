@@ -48,9 +48,9 @@ describe("newGame() works correctly", () => {
         // expect(game.playerMoves).toEqual([]);
         expect(game.playerMoves.length).toBe(0);
     });
-    test("should clear computer sequence array", () => {
+    test("should be one element in computer's game array", () => {
         // expect(game.currentGame).toEqual([]);
-        expect(game.currentGame.length).toBe(0);
+        expect(game.currentGame.length).toBe(1);
     });
     test("should display 0 for the element with the id of score", () => {
         expect(document.getElementById("score").innerText).toEqual(0);
